@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "user": "usuario_1",
+    "passwd": "12345",
+    "tipo": "admin"
+  },
+  {
+    "id": "2",
+    "user": "usuario_2",
+    "passwd": "12345",
+    "tipo": "operador"
+  },
+  {
+    "id": "3",
+    "user": "usuario_3",
+    "passwd": "12345",
+    "tipo": "operador"
+  }
+]

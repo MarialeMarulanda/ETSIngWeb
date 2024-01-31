@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4e1a6;
+}
+.wrapper {
+  width: 420px;
+  background: #feeee6;
+  color: #0101022c;
+}
+
+.wrapper h1 {
+  color: #000;
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 90%;
+  height: 50px;
+  padding-left: 25px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 90%;
+  height: 60%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid#ffc5c9;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #000;
+  padding: 10px 10px 10px 10px;
+}
+
+.input-box input::placeholder {
+  color: #a739409c;
+}
+
+.wrapper .btn {
+  width: 70%;
+  height: 45px;
+  background: #ffc5c9;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 1 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 19px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.tabla-container {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px; /* Bordes redondeados */
+  overflow: hidden; /* Evita que los bordes redondeados se vean cortados */
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+thead {
+  background-color: rgb(205, 92, 92); /* Rosa */
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+tbody {
+  background-color: rgb(243, 220, 220);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(238, 200, 200); /* Color de fondo alternativo */
+}
+
+@media only screen and (max-width: 600px) {
+  th,
+  td {
+    display: block;
+    width: 100%;
+  }
+}
